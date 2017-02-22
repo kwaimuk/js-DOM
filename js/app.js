@@ -25,7 +25,7 @@ ppap.innerHTML = "Pen"+"Pineapple"+"Apple"+"Pen";
 
 /*4. Replace the n/a for Snoop with the gangsta lorem ipsum*/
 var doggy = document.getElementsByClassName("profile")[0];
-doggy.innerHTML = "Loremi ipsum dolor sit amet, consectetur adipisicing elit. Dicta nihil voluptatum magnam laborum dolores quas quasi suscipit deserunt assumenda dolorum minus molestiae iusto placeat dolore libero, dignissimos aut, corporis necessitatibus?";
+doggy.innerHTML = "Shizzlin dizzle izzle gangsta gangster pimpin' tempizzle sure. Gangsta break yo neck, yall boom shackalack izzle turpizzle. Phat izzle yippiyo. ";
 
 
 
@@ -68,7 +68,9 @@ meAlias.innerHTML="InternErn";
 var meBio = document.createElement("div");
 meBio.id= "bio9";
 meBio.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non enim velit sunt, corporis hic fugiat, totam deleniti, reprehenderit debitis consequuntur ipsum, ut nihil officiis. Laborum repudiandae earum est. Alias, perspiciatis.";
-document.getElementsByClassName("block3 col-sm-4")[2].appendChild(meName,mePos);
+
+document.getElementsByClassName("block3 col-sm-4")[2].innerHTML="<img src= http://vignette4.wikia.nocookie.net/men-in-black/images/6/6a/Animated_Frank.jpg>";
+document.getElementsByClassName("block3 col-sm-4")[2].appendChild(meName);
 document.getElementsByClassName("block3 col-sm-4")[2].appendChild(mePos);
 document.getElementsByClassName("block3 col-sm-4")[2].appendChild(meAlias);
 document.getElementsByClassName("block3 col-sm-4")[2].appendChild(meBio);
